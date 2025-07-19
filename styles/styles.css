@@ -1,0 +1,121 @@
+
+
+/* shared style */
+
+/* nav-text */
+.text-color {
+    color: #3A3A3A;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* navbar style */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links .nav-list {
+    list-style: none;
+}
+
+.nav-list .list-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.nav-list .list-link i {
+    color: #000000;
+}
+
+/* banner style */
+.banner {
+    display: flex;
+    margin-top: 100px;
+    gap: 150px;
+}
+.banner-container {
+    text-align: left;
+    
+}
+.banner-title {
+    font-size: 3.35rem;
+    font-weight:bold ;
+    margin-bottom: 16px;
+}
+
+.banner-description {
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+
+.banner-btn-icon {
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #E02C6D;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: none;
+    padding: 10px 50px 10px 24px;
+    border-radius: 41px;
+}
+.banner-btn-icon  i {
+    margin-left: -40px;
+    color: white;
+
+}
+.image-container {
+    background-image: url('/images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 100%;
+    background-size: contain;
+}
+ .images-camera {
+    margin-left: 370px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+} 
+
+
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .product-logo {
+        text-align: center;
+    }
+    .banner-container {
+        text-align: center;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+     .images-camera {
+        margin-top: 100px;
+        margin-left: -50px;
+        width: 100%;
+        padding: 20px;
+       
+     }
+     
+}
