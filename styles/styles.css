@@ -197,5 +197,9 @@ main {
      .logo-image {
         width: 50%;
      }
+     .Collection-container {
+        grid-template-columns: 1fr;
+        margin-left: 28px;
+     }
      
 }
