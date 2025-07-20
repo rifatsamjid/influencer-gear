@@ -1,5 +1,7 @@
 
-
+.font {
+    font-family: 'Poppins', sans-serif;
+}
 /* shared style */
 
 /* nav-text */
@@ -86,7 +88,7 @@ main {
 
 }
 .image-container {
-    background-image: url('/images/Circle design.svg');
+    background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
     background-position: right bottom;
     width: 100%;
@@ -235,6 +237,7 @@ main {
     display: flex;
     gap: 15px;
     color: white;
+    padding-bottom: 9px;
 }
 
 
